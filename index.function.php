@@ -7,6 +7,24 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <?php 
+
+    $chaine = "bonjour tout le monde";
+    $chaine = strtoupper($chaine);
+    echo $chaine . "<br />";
+
+    $chaine = "BONJOUR TOUT LE MONDE";
+    $chaine = strtolower($chaine);
+    echo $chaine . "<br />";
+
+    $chaine = "Bonjour tout le monde";
+    $longueur = strlen($chaine);
+    echo $longueur . "<br />";
+
+    $chaine = "Bonjour tout le monde";
+    $chaine = str_replace("tout", "tous", $chaine);
+    echo $chaine . "<br />";
+
+    ?>
 </body>
 </html>
